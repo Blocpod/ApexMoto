@@ -1,5 +1,7 @@
 # ApexMoto
 
+![ApexMoto mobile riding companion interface](docs/assets/apexmoto-hero.jpg)
+
 ApexMoto is a full-stack motorcycle companion app for route planning, group rides, ride tracking, safety workflows, and garage readiness.
 
 It is built as a real working application, not a static concept: the web app talks to a local API, persists data, imports/exports GPX, tracks location with browser geolocation, and broadcasts live group ride state over WebSockets.
