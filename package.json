@@ -1,0 +1,14 @@
+{
+  "name": "apexmoto",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ApexMoto is a full-stack motorcycle companion app for route planning, live group rides, safety, garage tracking, and ride intelligence.",
+  "scripts": {
+    "dev": "concurrently -n api,web -c cyan,green \"npm --prefix apps/api run dev\" \"npm --prefix apps/web run dev\"",
+    "build": "npm --prefix apps/web run build",
+    "start": "npm --prefix apps/api start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ApexMoto",
+  "short_name": "ApexMoto",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101820",
+  "theme_color": "#101820",
+  "description": "Motorcycle route planning, group rides, live safety, garage readiness, and ride intelligence."
+}

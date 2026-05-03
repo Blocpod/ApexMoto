@@ -1,0 +1,12 @@
+{
+  "experimentalServices": {
+    "web": {
+      "entrypoint": "apps/web",
+      "routePrefix": "/"
+    },
+    "api": {
+      "entrypoint": "apps/api/src/server.js",
+      "routePrefix": "/api"
+    }
+  }
+}
